@@ -4,7 +4,7 @@
 [user]
     name = Cody Dracars
     email = codydracars@cfsbrands.com
-    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIjnr7LuPyFMzxCJm06gm6YpRMz8pjmAdkmMrAgx+a9K
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5CSJVycSf1N9GpU7P5RKY5DqQpIs5OfSqim/gRZVR6vxA557M3y5sIzNk3alL9KNYcSxuufzzeBEnlTiXGlpPUVQKxPpnn5fr1ahEsYN/ANpOhuJSu1BZUUWLgeFFPhO6BgFQAbwREXuB4K0XIt1kY5qgSo3jwd8lW+0QntrQRxhEcTXXGLRqvB+y0Z0F3pw17j4Go+qn1H6RqGOvwrVly/UWdYqqWKEJ52KaNOsEV3u27aLpAN91zxElpJ7DlyIlBV0D3TQ6MEoPFbFYRRhlwgEAEz44+JRc3UVeu/OUc5MRVWSa+B/b59axPSBxcOTD8Xc9fZwznCznxcgIUisln2iOTJUr4Adw1dhqcR7JB711FlZLVPMHvnqa/roEBlRH4CHZ/IbW825L+bhC+JMYsxoBMNG1D1azJL1kEphFjHAqU95JutIVbala3bKxV+2hkTKAp30jbZ8B0A0t4hoaFmvp87D9avAu5O5HfttzGaPdsfvaV7vvDDqaXj9/rEYjezqj3JHNpofbm+vg2w7zSD5T2yH79jaOHmyC43kAtTdM127NB+TlzAjDh4ZXWEjiZJCxMSeNhID3MdktrztWMRkpuFDx0ZoTD7huM95CvTCY16AyMarb1BdRtw5jZ1XKFY2+jsrKDd7SFkGuvCkfqH777X0SfHf3Yfc3SbBhqw==
 [gpg]
     format = ssh
 [gpg "ssh"]
