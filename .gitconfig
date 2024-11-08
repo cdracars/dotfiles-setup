@@ -1,0 +1,19 @@
+[alias]
+    lg = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    diff-branch = "!f() { git diff HEAD > temp.txt && echo \"Branch: $(git branch --show-current)\" >> temp.txt; code temp.txt; }; f"
+[user]
+    name = Cody Dracars
+    email = codydracars@cfsbrands.com
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIjnr7LuPyFMzxCJm06gm6YpRMz8pjmAdkmMrAgx+a9K
+[gpg]
+    format = ssh
+[gpg "ssh"]
+    program = /opt/1Password/op-ssh-sign
+[commit]
+    gpgsign = true
+[pull]
+    rebase = true
+[core]
+    hooksPath = /home/cfsdev/.git-hooks
+[init]
+    defaultBranch = main

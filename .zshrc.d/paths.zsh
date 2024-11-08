@@ -1,0 +1,13 @@
+export ZPLUG_HOME=~/.zplug
+export TMUX_PLUGIN_MANAGER_PATH=${HOME}/.tmux/plugins/tpm/
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export PATH="${HOME}/.npm-global/bin":"${PATH}"
+export PATH="${HOME}/.local":"${PATH}"
+export PATH=/home/cfsdev/.local/bin:$PATH
+export PATH=$PATH:/home/cfsdev/.nvm/versions/node/v18.19.0/bin
+export NVM_DIR="$HOME/.nvm"
+export SSH_AUTH_SOCK=~/.1password/agent.sock
+export EDITOR=vi
+export PATH=$PATH:/home/cfsdev/.nvm/versions/node/v18.19.0/bin
+export ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"
