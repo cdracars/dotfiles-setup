@@ -29,6 +29,7 @@ This repository contains a script to set up your dotfiles and related configurat
 - Installs the `powerlevel10k` theme if not already installed.
 - Links primary dotfiles such as `.zshrc` and `.gitconfig`.
 - Links all files in the `.zshrc.d` directory.
+- Sets your login shell to Zsh (prompts for password via `chsh` if needed) and launches a Zsh session when run interactively.
 
 ## Adding New Dotfiles
 
